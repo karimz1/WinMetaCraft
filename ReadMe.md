@@ -25,8 +25,10 @@ Manipulate the 'Created' and 'Modified' dates of files precisely. Maintain chron
 ## Usage (Read / Delete Meta and File Date Updater)
 
 
+https://github.com/karimz1/WinMetaCraft/assets/67792765/c7febc5d-080a-49e2-a1b6-c58cce755b25
 
-https://github.com/karimz1/WinMetaCraft/assets/67792765/fb8de08c-6f7b-4d23-a0e8-c5bbee6e6d55
+
+
 
 
 
@@ -42,7 +44,11 @@ Explore the power of [Git Redate](https://github.com/PotatoLabs/git-redate) dire
 
 Git Redate Integration Usage from Windows Context Menu:
 
-https://github.com/karimz1/WinMetaCraft/assets/67792765/cfdd8da5-97cc-42e7-b1f4-12fe1f2df7af
+
+https://github.com/karimz1/WinMetaCraft/assets/67792765/b01f8f7b-4d30-4d1e-8df2-908e1676633d
+
+
+
 
 ## Quick Access to WinMetaCraft: User-friendly Guide for Windows 11 Users
 
