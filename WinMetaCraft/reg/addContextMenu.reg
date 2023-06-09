@@ -1,0 +1,45 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\WinMetaCraft]
+"MUIVerb"="WinMetaCraft"
+"Icon"="C:\\WinMetaCraft\\icons\\winmetacraft_icon.ico"
+"SubCommands"="WinMetaCraft.UpdateFileDates;WinMetaCraft.ReadMeta;WinMetaCraft.DeleteMeta"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\WinMetaCraft.UpdateFileDates]
+@="Override File Creation Date"
+"Icon"="C:\\WinMetaCraft\\icons\\file_icon_orange.ico"
+"Position"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\WinMetaCraft.UpdateFileDates\command]
+@="cmd /k \"\"C:\\WinMetaCraft\\file_creation_date_overrider\\main.bat\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\WinMetaCraft.ReadMeta]
+@="Read Meta File"
+"Icon"="C:\\WinMetaCraft\\icons\\meta_icon.ico"
+"Position"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\WinMetaCraft.ReadMeta\command]
+@="cmd /k \"\"C:\\WinMetaCraft\\meta_exiftool\\ReadFileMeta.bat\" \"%1\"\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\WinMetaCraft.DeleteMeta]
+@="Delete Meta File"
+"Icon"="C:\\WinMetaCraft\\icons\\meta_icon.ico"
+"Position"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\WinMetaCraft.DeleteMeta\command]
+@="cmd /k \"\"C:\\WinMetaCraft\\meta_exiftool\\DeleteFileMeta.bat\" \"%1\"\""
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\WinMetaCraft.GitRedate]
+@="Git Redate (WinMetaCraft)"
+"Icon"="C:\\WinMetaCraft\\icons\\git-redate_icon.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\WinMetaCraft.GitRedate\command]
+@="cmd /c \"\"C:\\WinMetaCraft\\git-redate\\git-redate.bat\" \"%V\"\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\WinMetaCraft.GitRedate]
+@="Git Redate (WinMetaCraft)"
+"Icon"="C:\\WinMetaCraft\\icons\\git-redate_icon.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\WinMetaCraft.GitRedate\command]
+@="cmd /c \"\"C:\\WinMetaCraft\\git-redate\\git-redate.bat\" \"%V\"\""
