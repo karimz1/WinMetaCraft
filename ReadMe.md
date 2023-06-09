@@ -24,17 +24,25 @@ Manipulate the 'Created' and 'Modified' dates of files precisely. Maintain chron
 
 ## Usage (Read / Delete Meta and File Date Updater)
 
-![winMetaCraft_meta_usage](./github/assets/winMetaCraft_meta_usage.gif)
+
+
+https://github.com/karimz1/WinMetaCraft/assets/67792765/fb8de08c-6f7b-4d23-a0e8-c5bbee6e6d55
+
+
 
 ------
 
 ### Git Redate: Transform Your Git Commits Like Never Before
 
+
+
+
+
 Explore the power of [Git Redate](https://github.com/PotatoLabs/git-redate) directly from the Windows context menu. Modify dates and authors of past Git commits with ease.
 
 Git Redate Integration Usage from Windows Context Menu:
 
-![winMetaCraft_gi-redate_usage](./github/assets/winMetaCraft_gi-redate_usage.gif)
+https://github.com/karimz1/WinMetaCraft/assets/67792765/cfdd8da5-97cc-42e7-b1f4-12fe1f2df7af
 
 ## Quick Access to WinMetaCraft: User-friendly Guide for Windows 11 Users
 
